@@ -11,7 +11,7 @@ Código inicial da Semana JS Expert 7.0
 
 ## Running
 
-- Execute `npm ci` para restaurar os pacotes
+- Execute `npm ci` dentro da pasta initial-template para restaurar os pacotes
 - Execute `npm start` e em seguida vá para o seu navegador em [http://localhost:3000](http://localhost:3000) para visualizar a página acima
 
 ## Checklist Features
