@@ -17,7 +17,9 @@ export default class Controller {
   }
   #configureWorker(worker) {
     worker.onmessage = (msg) => {
-      console.log('received!', msg)
+      if('READY' === msg.data){
+        this.#view.enableButton()
+      }
     }
     return worker
   }
